@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../7_CAROUSEL_HTML_CSS_JS/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+          
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <div class="slide first">
+            <img src="../7_CAROUSEL_HTML_CSS_JS/src/img.jfif" alt="tour Eiffel">
+          </div>
+          <div class="slide">   
+            <img src="../7_CAROUSEL_HTML_CSS_JS/src/img1.jfif" alt="tour Eiffel">
+          </div>
+          <div class="slide">
+            <img src="../7_CAROUSEL_HTML_CSS_JS/src/img2.jfif" alt="tour Eiffel">
+          </div>
+          <div class="slide"> 
+            <img src="../7_CAROUSEL_HTML_CSS_JS/src/img3.jfif" alt="tour Eiffel">
+          </div>
+        </div>  
+      </div>
+      <script>
+        var counter = 1;
+        setInterval(function()  {
+          document.getElementById('radio'+ counter).checked = true;
+          counter++; 
+    
+          if(counter>4){
+            counter=1
+          }
+    
+        }, 2700);
+      </script>
+</body>
+</html>

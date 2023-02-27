@@ -1,0 +1,70 @@
+  .vertical {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 9999;
+  }
+  
+  div {
+    width: calc(100% - 250px);
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    top: 0px;
+    position: sticky;
+    float: right;
+  }
+  
+  div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  div ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  div ul li a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  div ul li a:hover {
+    color: red;
+  }
+  
+  #pt1,
+  #pt2,
+  #pt3,
+  #pt4 {
+    height: 100vh;
+    background-color: black;
+    margin-left: 20px;
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+  }
