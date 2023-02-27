@@ -47,15 +47,15 @@ body::-webkit-scrollbar {
     height: 5px;
 }
 body::-webkit-scrollbar-thumb {
-    background: #3b266d;
+    background: #fbe0c3;
     border: 31px none #ffffff;
     border-radius: 5px;
 }
 body::-webkit-scrollbar-thumb:hover {
-    background: #42238a;
+    background: #fbe0c3;
 }
 body::-webkit-scrollbar-thumb:active {
-    background: #a3a3a3;
+    background: #fbe0c3;
 }
 body::-webkit-scrollbar-track {
     background: #ffffff;
