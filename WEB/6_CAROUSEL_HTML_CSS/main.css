@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #d81d52;
+}
+
+.slides{
+    float: left;
+}
+
+.slider{
+    width: 700px;
+    overflow: hidden;
+    margin: 150px auto;
+}
+
+.slides{
+    width: calc(800px * 3);
+    animation: glisse 5s infinite;
+}
+
+@keyframes glisse{
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-700px);
+    }
+    66% {
+        transform: translateX(-1400px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
