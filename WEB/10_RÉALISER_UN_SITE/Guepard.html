@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../10_RÉALISER_UN_SITE/css/animaux.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="../10_RÉALISER_UN_SITE/src/panda.png" class="lelouvre" alt="Logo"></a>
+        
+    </nav>
+    <div3 class="mainimg">
+        <div class="container">
+            <h1 class="descriptiff">Le Guepard</h1>
+            <p class="descriptif">
+                Le guépard (Acinonyx jubatus) est un grand mammifère carnassier de la famille des félidés vivant en Afrique et en Asie de l'Ouest. Le guépard a une allure svelte et fine, avec de longues pattes élancées (aux griffes semi-rétractiles ou non-rétractiles selon les sources), et une face au museau court marquée par deux traces noires partant des yeux. Son pelage est entièrement tacheté de noir sur un fond fauve à beige très clair ; les petits sont pourvus d'une courte crinière qui disparaît à l'âge adulte. Il est considéré comme l'animal terrestre le plus rapide au monde, sa vitesse à la course pouvant atteindre 112 km/h.
+
+Classé vulnérable par l'Union internationale pour la conservation de la nature, le guépard fait actuellement l'objet de diverses tentatives de protection, incluant des procédés de clonage. L'espèce est divisée en cinq sous-espèces présentant des différences mineures de morphologie ou de comportement. Parmi celles-ci, le guépard asiatique, le guépard du Sahara et le guépard d'Afrique du Nord-Est sont classées en danger critique d'extinction. La population de guépards est passée de 100 000 individus au début du xxe siècle à 7 100 en 2019.
+            </p>
+            </div>
+        <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <div class="slide first">
+                <img src="../10_RÉALISER_UN_SITE/src/guepard.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide">   
+                <img src="../10_RÉALISER_UN_SITE/src/guepard2.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide">
+                <img src="../10_RÉALISER_UN_SITE/src/guepard3.jfif" alt="tour Eiffel">
+              </div>
+              <div class="slide"> 
+                <img src="../10_RÉALISER_UN_SITE/src/guepard4.jfif" alt="tour Eiffel">
+              </div>
+            </div>
+          </div>
+          <script>
+            var counter = 1;
+            setInterval(function()  {
+              document.getElementById('radio'+ counter).checked = true;
+              counter++; 
+        
+              if(counter>4){
+                counter=1
+              }
+            }, 2700);
+          </script>
+        </div>
+    </div3>
+    <footer class="site-footer">
+        <div>
+          <div>
+            <div class="about">
+                <h6>A propos de nous !</h6>
+                <p>Vous pouvez nous retrouver sur les réseaux sociaux si dessous ! N'hesitez pas à partager et à faire connaitre le zoo à vos amis. Cela nous aiderez beaucoup!</p>
+                <hr>
+                <h6>Réseaux Sociaux</h6>
+            </div>
+            
+            <div>
+              <ul class="social-icons">
+                <li><a class="facebook" href="../4_FOOTER/src/facebook.png"></a></li>
+                <li><a class="twitter" href="../4_FOOTER/src/twitter.png"></a></li>
+                <li><a class="instagram" href="../4_FOOTER/src/instagram.png"></a></li>
+                <li><a class="linkedin" href="../4_FOOTER/src/linkedin.png"></a></li>   
+              </ul>
+            </div>
+      
+            <div class="copyright">
+                <p> © 2023 All Rights Reserved by Némo MULLER </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

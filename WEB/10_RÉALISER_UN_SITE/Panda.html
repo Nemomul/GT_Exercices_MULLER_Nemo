@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../10_RÉALISER_UN_SITE/css/animaux.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="../10_RÉALISER_UN_SITE/src/panda.png" class="lelouvre" alt="Logo"></a>
+        
+    </nav>
+    <div3 class="mainimg">
+        <div class="container">
+            <h1 class="descriptiff">Le Panda</h1>
+            <p class="descriptif">
+                Le panda géant (Ailuropoda melanoleuca) est une espèce de mammifères, habituellement classée dans la famille des ursidés (Ursidae), endémique de la Chine centrale. Il fait partie de l'ordre des Carnivores, même si son régime alimentaire est constitué à 99 % de végétaux, principalement du bambou.
+
+Il ne vit que dans le centre de la Chine, dans des régions montagneuses recouvertes de forêts d'altitude, des provinces du Sichuan et du Gansu (dans les régions traditionnelles de l'Amdo et du Kham du Tibet oriental), ainsi qu'au Shaanxi, entre 1 000 et 4 000 mètres.
+
+Jusqu'en 1901, le panda géant était connu par les anglophones sous le nom de « parti-coloured bear2 ». Par la suite, il fut lié au panda roux (Ailurus fulgens), avec lequel il possède des caractéristiques communes comme le « sixième doigt » ou « faux pouce », qu'il partage également avec Simocyon batalleri, l'ancêtre européen d'il y a 9 millions d'années du panda roux, ayant la taille d'un puma, retrouvé à Batallones, près de Madrid3. Ailurus fulgens appartient en réalité à une autre famille, les Ailuridae, dans la superfamille des Musteloidea, qui comprend également les belettes, les moufettes et les procyonidés.
+            </p>
+            </div>
+        <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <div class="slide first">
+                <img src="../10_RÉALISER_UN_SITE/src/panda1.jfif" alt="tour Eiffel">
+              </div>
+              <div class="slide">   
+                <img src="../10_RÉALISER_UN_SITE/src/panda2.webp" alt="tour Eiffel">
+              </div>
+              <div class="slide">
+                <img src="../10_RÉALISER_UN_SITE/src/panda3.jfif" alt="tour Eiffel">
+              </div>
+              <div class="slide"> 
+                <img src="../10_RÉALISER_UN_SITE/src/panda4.jpg" alt="tour Eiffel">
+              </div>
+            </div>
+          </div>
+          <script>
+            var counter = 1;
+            setInterval(function()  {
+              document.getElementById('radio'+ counter).checked = true;
+              counter++; 
+        
+              if(counter>4){
+                counter=1
+              }
+            }, 2700);
+          </script>
+        </div>
+    </div3>
+    <footer class="site-footer">
+        <div>
+          <div>
+            <div class="about">
+                <h6>A propos de nous !</h6>
+                <p>Vous pouvez nous retrouver sur les réseaux sociaux si dessous ! N'hesitez pas à partager et à faire connaitre le zoo à vos amis. Cela nous aiderez beaucoup!</p>
+                <hr>
+                <h6>Réseaux Sociaux</h6>
+            </div>
+            
+            <div>
+              <ul class="social-icons">
+                <li><a class="facebook" href="../4_FOOTER/src/facebook.png"></a></li>
+                <li><a class="twitter" href="../4_FOOTER/src/twitter.png"></a></li>
+                <li><a class="instagram" href="../4_FOOTER/src/instagram.png"></a></li>
+                <li><a class="linkedin" href="../4_FOOTER/src/linkedin.png"></a></li>   
+              </ul>
+            </div>
+      
+            <div class="copyright">
+                <p> © 2023 All Rights Reserved by Némo MULLER </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

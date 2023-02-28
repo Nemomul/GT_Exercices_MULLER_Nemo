@@ -1,0 +1,17 @@
+body {
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table, th, td {
+    border: 3px solid #FF4566;
+    border-collapse: collapse;
+    padding: 10px;
+}

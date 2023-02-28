@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../10_RÉALISER_UN_SITE/animaux.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="../10_RÉALISER_UN_SITE/src/panda.png" class="lelouvre" alt="Logo"></a>
+        
+    </nav>
+    <div3 class="mainimg">
+        <div class="container">
+            <h1 class="descriptiff">Le Lion</h1>
+            <p class="descriptif">
+                Le Lion (Panthera leo) est une espèce de mammifères carnivores de la famille des Félidés. La femelle du lion est la lionne, son petit est le lionceau. Le mâle adulte, aisément reconnaissable à son importante crinière, accuse une masse moyenne qui peut être variable selon les zones géographiques où il se trouve, allant de 145 à 180 kg pour les lions d'Asie à plus de 225 kg pour les lions d'Afrique. Certains spécimens très rares peuvent dépasser exceptionnellement 300 kg. Un mâle adulte se nourrit de 7 kg de viande chaque jour contre 5 kg chez la femelle. Le lion est un animal grégaire, c'est-à-dire qu'il vit en larges groupes familiaux, contrairement aux autres félins.
+            </p>
+            </div>
+        <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <div class="slide first">
+                <img src="../10_RÉALISER_UN_SITE/src/lion1.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide">   
+                <img src="../10_RÉALISER_UN_SITE/src/lion2.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide">
+                <img src="../10_RÉALISER_UN_SITE/src/lion3.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide"> 
+                <img src="../10_RÉALISER_UN_SITE/src/lion4.jpg" alt="tour Eiffel">
+              </div>
+            </div>
+          </div>
+          <script>
+            var counter = 1;
+            setInterval(function()  {
+              document.getElementById('radio'+ counter).checked = true;
+              counter++; 
+        
+              if(counter>4){
+                counter=1
+              }
+            }, 2700);
+          </script>
+        </div>
+    </div3>
+    <footer class="site-footer">
+        <div>
+          <div>
+            <div class="about">
+                <h6>A propos de nous !</h6>
+                <p>Vous pouvez nous retrouver sur les réseaux sociaux si dessous ! N'hesitez pas à partager et à faire connaitre le zoo à vos amis. Cela nous aiderez beaucoup!</p>
+                <hr>
+                <h6>Réseaux Sociaux</h6>
+            </div>
+            
+            <div>
+              <ul class="social-icons">
+                <li><a class="facebook" href="../4_FOOTER/src/facebook.png"></a></li>
+                <li><a class="twitter" href="../4_FOOTER/src/twitter.png"></a></li>
+                <li><a class="instagram" href="../4_FOOTER/src/instagram.png"></a></li>
+                <li><a class="linkedin" href="../4_FOOTER/src/linkedin.png"></a></li>   
+              </ul>
+            </div>
+      
+            <div class="copyright">
+                <p> © 2023 All Rights Reserved by Némo MULLER </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../10_RÉALISER_UN_SITE/css/animaux.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="../10_RÉALISER_UN_SITE/src/panda.png" class="lelouvre" alt="Logo"></a>
+        
+    </nav>
+    <div3 class="mainimg">
+        <div class="container">
+            <h1 class="descriptiff">Le Requin</h1>
+            <p class="descriptif">
+                Les requins, squales ou sélachimorphes forment un super-ordre de poissons cartilagineux, possédant cinq à sept fentes branchiales sur les côtés de la tête et les nageoires pectorales qui ne sont pas fusionnées à la tête. Ils sont présents dans tous les océans du globe et dans certains grands fleuves. Les requins modernes sont classés au sein du clade Selachimorpha ou Selachii et constituent le groupe-frère des raies. Toutefois, le terme « requin », au sens large, désigne aussi les espèces disparues de la sous-classe des Elasmobranchii, comme Cladoselache et Xenacanthus.
+
+Les premiers requins sont apparus au Dévonien, il y a environ 420 Ma. À partir du Crétacé, il y a 100 Ma, beaucoup de lignées de requins ont adopté leur forme moderne. Depuis, il existe plus de 500 espèces de requins regroupées en 35 familles, sans compter les espèces de raies, aujourd'hui considérées comme des requins à part entière1. Certaines espèces ne sont connues que par leurs fossiles. Leur taille varie de seulement 20 cm de longueur pour Etmopterus perryi, à plus de 20 m pour le requin-baleine.
+            </p>
+            </div>
+        <div class="slider">
+            <div class="slides">
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <div class="slide first">
+                <img src="../10_RÉALISER_UN_SITE/src/requin1.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide">   
+                <img src="../10_RÉALISER_UN_SITE/src/requin2.jpg" alt="tour Eiffel">
+              </div>
+              <div class="slide">
+                <img src="../10_RÉALISER_UN_SITE/src/requin3.jfif" alt="tour Eiffel">
+              </div>
+              <div class="slide"> 
+                <img src="../10_RÉALISER_UN_SITE/src/requin4.jpg" alt="tour Eiffel">
+              </div>
+            </div>
+          </div>
+          <script>
+            var counter = 1;
+            setInterval(function()  {
+              document.getElementById('radio'+ counter).checked = true;
+              counter++; 
+        
+              if(counter>4){
+                counter=1
+              }
+            }, 2700);
+          </script>
+        </div>
+    </div3>
+    <footer class="site-footer">
+        <div>
+          <div>
+            <div class="about">
+                <h6>A propos de nous !</h6>
+                <p>Vous pouvez nous retrouver sur les réseaux sociaux si dessous ! N'hesitez pas à partager et à faire connaitre le zoo à vos amis. Cela nous aiderez beaucoup!</p>
+                <hr>
+                <h6>Réseaux Sociaux</h6>
+            </div>
+            
+            <div>
+              <ul class="social-icons">
+                <li><a class="facebook" href="../4_FOOTER/src/facebook.png"></a></li>
+                <li><a class="twitter" href="../4_FOOTER/src/twitter.png"></a></li>
+                <li><a class="instagram" href="../4_FOOTER/src/instagram.png"></a></li>
+                <li><a class="linkedin" href="../4_FOOTER/src/linkedin.png"></a></li>   
+              </ul>
+            </div>
+      
+            <div class="copyright">
+                <p> © 2023 All Rights Reserved by Némo MULLER </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
